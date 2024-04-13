@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.corpus-load-form {
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.focused {
+  background-color: #f3f3f0;
+}
+
+.corpus-record {
+  padding: 2em;
+  border-bottom: 1px solid #ccc;
+}
+
+.corpus-metadata {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.corpus-text {
+  white-space: pre-wrap;
+}
+
+.corpus-rating {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.export {
+  margin-top: 1em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+.warn {
+  color: #c33;
+}
